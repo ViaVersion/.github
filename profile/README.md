@@ -28,7 +28,7 @@ to your mod directory.
 These are proxies you host. By connecting through them with your client (can be modded or unmodded), you can join
 servers of different versions. Depending on the setup, these include ViaVersion, ViaBackwards, ViaRewind, and ViaLegacy.
 
-|                     | [ViaAAS](https://github.com/ViaVersion/VIAaaS)                                                              | [ViaProxy](https://github.com/ViaVersion/ViaProxy)                      |
+|                     | [VIAaaS](https://github.com/ViaVersion/VIAaaS)                                                              | [ViaProxy](https://github.com/ViaVersion/ViaProxy)                      |
 |---------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Installed on        | Local or remote instances to any server                                                                     | Local instances to any server, or remote instances to a specific server |
 | Allows              | Connecting to 1.8.8-latest servers                                                                          | Connecting to classic c0.0.15-latest servers                            |
