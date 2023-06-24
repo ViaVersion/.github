@@ -33,3 +33,13 @@ servers of different versions. Depending on the setup, these include ViaVersion,
 | Installed on        | Local or remote instances to any server                                                                     | Local instances to any server, or remote instances to a specific server |
 | Allows              | Connecting to 1.8.8-latest servers                                                                          | Connecting to classic c0.0.15-latest servers                            |
 | Additional benefits | Has already running, [public instances](https://github.com/ViaVersion/VIAaaS/wiki/List-of-Public-Instances) | User-friendly graphical user interface for local instances              |
+
+## Internal libraries (for developers)
+
+These projects are not directly for users, but internal projects respectively libraries which are mainly used by the above-mentioned projects.
+
+|                | [ViaLegacy](https://github.com/ViaVersion/ViaLoader)               | [ViaAprilFools](https://github.com/ViaVersion/ViaAprilFools)                               | [ViaLoader](https://github.com/ViaVersion/ViaLoader)                                                                 | [Mappings](https://github.com/ViaVersion/Mappings)        |
+|----------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Implemented in | ViaFabricPlus and ViaProxy                                         | ViaFabricPlus, ViaAas and ViaProxy                                                         | ViaFabricPlus, ViaForge and ViaProxy                                                                                 | ViaVersion and ViaBackwards                               |
+| What it does   | ViaVersion addon which allows connecting to classic-1.7.10 servers | ViaVersion addon which allows connecting to 3D Shareware, 20w14infinite and Combat Test 8c | Easy to use ViaVersion, (and optional ViaBackwards, ViaRewind, ViaLegacy and ViaAprilFools) platform implementation. | Mapping generator and mapping files for the Via projects. |
+ 
