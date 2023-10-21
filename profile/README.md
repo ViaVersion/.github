@@ -14,11 +14,11 @@ suits your exact needs.
 
 Depending on the setup, these include ViaVersion, ViaBackwards, ViaRewind, and ViaLegacy.
 
-|                     | [ViaFabric](https://github.com/ViaVersion/ViaFabric)              | [ViaFabricPlus](https://github.com/ViaVersion/ViaFabricPlus) | [ViaForge](https://github.com/ViaVersion/ViaForge) |
-|---------------------|-------------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------|
-| Installed on        | Fabric client or server: Latest minor version of 1.8, 1.14-latest | Fabric client: Latest                                        | Forge client: 1.8.8, 1.12.2                        |
-| Allows              | Connecting to 1.8.8-latest servers*                               | Connecting to classic c0.0.15 to latest release servers      | Connecting to 1.8.8-latest servers                 |
-| Additional benefits | Less potential for mod incompatibilities than ViaFabricPlus       | Less gameplay and anti-cheat issues                          |                                                    |
+|                     | [ViaFabric](https://github.com/ViaVersion/ViaFabric)              | [ViaFabricPlus](https://github.com/ViaVersion/ViaFabricPlus) | [ViaForge](https://github.com/ViaVersion/ViaForge)                            |
+|---------------------|-------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Installed on        | Fabric client or server: Latest minor version of 1.8, 1.14-latest | Fabric client: Latest                                        | Forge client: Latest minor version of 1.8, 1.14-latest                        |
+| Allows              | Connecting to 1.8.8-latest servers*                               | Connecting to classic c0.0.15 to latest release servers      | Connecting to 1.8.8-latest servers                                            |
+| Additional benefits | Less potential for mod incompatibilities than ViaFabricPlus       | Less gameplay and anti-cheat issues                          | Less gameplay and anti-cheat issues                                           |
 
 *If you want to connect to servers that are newer than your client, you need to add ViaBackwards (and ViaRewind on 1.8)
 to your mod directory.
