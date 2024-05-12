@@ -4,7 +4,7 @@ suits your exact needs.
 
 ## Paper (and other Spigot forks), Velocity, Bungee, Sponge plugins
 
-|                     | [ViaVersion](https://github.com/ViaVersion/ViaVersion)       | [ViaBackwards](https://github.com/ViaVersion/ViaBackwards) (requires ViaVersion) | [ViaRewind](https://github.com/ViaVersion/ViaRewind) (requires ViaVersion)                                       |
+|                     | [ViaVersion](https://github.com/ViaVersion/ViaVersion)       | [ViaBackwards](https://github.com/ViaVersion/ViaBackwards) (requires ViaVersion) | [ViaRewind](https://github.com/ViaVersion/ViaRewind) (requires ViaBackwards)                                     |
 |---------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | Installed on        | Server: 1.8.8-latest                                         | Servers: 1.10-latest                                                             | Servers: 1.8.8-latest                                                                                            |
 | Allows              | All client versions that are **newer than your server**      | Client versions that are **older than your server** down to 1.9                  | 1.7.10-1.8.9 clients                                                                                             |
