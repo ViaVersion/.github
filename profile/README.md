@@ -9,6 +9,7 @@ suits your exact needs.
 | Installed on        | Server: 1.8.8-latest                                         | Servers: 1.10-latest                                                             | Servers: 1.8.8-latest                                                                                            |
 | Allows              | All client versions that are **newer than your server**      | Client versions that are **older than your server** down to 1.9                  | 1.7.10-1.8.9 clients                                                                                             |
 | Additional benefits | Less gameplay and anti-cheat issues if run on a Paper server |                                                                                  | Less gameplay issues if using [ViaRewind Legacy Support](https://github.com/ViaVersion/ViaRewind-Legacy-Support) |
+
 *To load Via plugins on either BungeeCord or Sponge, you will need to use extra bootstrapping plugins. See [ViaBungee](https://github.com/ViaVersion/ViaBungee) and [ViaSponge](https://github.com/ViaVersion/ViaSponge).
 
 ## Fabric, Forge mods
@@ -39,9 +40,9 @@ servers of different versions. Depending on the setup, these include ViaVersion,
 
 These projects are not directly for users, but internal projects respectively libraries which are mainly used by the above-mentioned projects.
 
-|                | [ViaLegacy](https://github.com/ViaVersion/ViaLegacy)               | [ViaAprilFools](https://github.com/ViaVersion/ViaAprilFools)                                        | [ViaLoader](https://github.com/ViaVersion/ViaLoader)                                                                 | [Mappings](https://github.com/ViaVersion/Mappings)        |
-|----------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| Implemented in | ViaFabricPlus and ViaProxy                                         | ViaFabricPlus, VIAaaS and ViaProxy                                                                  | ViaFabricPlus, ViaForge and ViaProxy                                                                                 | ViaVersion and ViaBackwards                               |
-| What it does   | ViaVersion addon which allows connecting to classic-1.7.10 servers | ViaVersion addon which allows connecting to 3D Shareware*, 20w14infinite and Combat Test 8c servers | Easy to use ViaVersion, (and optional ViaBackwards, ViaRewind, ViaLegacy and ViaAprilFools) platform implementation. | Mapping generator and mapping files for the Via projects. |
+|                | [ViaLegacy](https://github.com/ViaVersion/ViaLegacy)               | [ViaAprilFools](https://github.com/ViaVersion/ViaAprilFools)                                        | [ViaLoader](https://github.com/ViaVersion/ViaLoader)                                                                 |
+|----------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Implemented in | ViaFabricPlus and ViaProxy                                         | ViaFabricPlus, VIAaaS and ViaProxy                                                                  | ViaFabricPlus, ViaForge and ViaProxy                                                                                 |
+| What it does   | ViaVersion addon which allows connecting to classic-1.7.10 servers | ViaVersion addon which allows connecting to 3D Shareware*, 20w14infinite and Combat Test 8c servers | Easy to use ViaVersion, (and optional ViaBackwards, ViaRewind, ViaLegacy and ViaAprilFools) platform implementation. |
 
 *3D Shareware supports both directions (3DShareware client -> 1.14 server and 1.14 client -> 3DShareware Server)
