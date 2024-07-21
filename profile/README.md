@@ -4,11 +4,11 @@ suits your exact needs.
 
 ## Paper (and other Spigot forks), Velocity, Bungee*, Sponge* plugins
 
-|                     | [ViaVersion](https://github.com/ViaVersion/ViaVersion)       | [ViaBackwards](https://github.com/ViaVersion/ViaBackwards) (requires ViaVersion) | [ViaRewind](https://github.com/ViaVersion/ViaRewind) (requires VB)                                               |
-|---------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Installed on        | Server: 1.8.8-latest                                         | Servers: 1.10-latest                                                             | Servers: 1.8.8-latest                                                                                            |
-| Allows              | All client versions that are **newer than your server**      | Client versions that are **older than your server** down to 1.9                  | 1.7.10-1.8.9 clients                                                                                             |
-| Additional benefits | Less gameplay and anti-cheat issues if run on a Paper server |                                                                                  | Less gameplay issues if using [ViaRewind Legacy Support](https://github.com/ViaVersion/ViaRewind-Legacy-Support) |
+|                     | [ViaVersion](https://github.com/ViaVersion/ViaVersion)       | [ViaBackwards](https://github.com/ViaVersion/ViaBackwards) (requires VV) | [ViaRewind](https://github.com/ViaVersion/ViaRewind) (requires VB)                                               |
+|---------------------|--------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Installed on        | Server: 1.8.8-latest                                         | Servers: 1.10-latest                                                     | Servers: 1.8.8-latest                                                                                            |
+| Allows              | All client versions that are **newer than your server**      | Client versions that are **older than your server** down to 1.9          | 1.7.10-1.8.9 clients                                                                                             |
+| Additional benefits | Less gameplay and anti-cheat issues if run on a Paper server |                                                                          | Less gameplay issues if using [ViaRewind Legacy Support](https://github.com/ViaVersion/ViaRewind-Legacy-Support) |
 
 *To load Via plugins on either BungeeCord or Sponge, you will need to use extra bootstrapping plugins. See [ViaBungee](https://github.com/ViaVersion/ViaBungee) and [ViaSponge](https://github.com/ViaVersion/ViaSponge).
 
@@ -28,7 +28,7 @@ to your mod directory.
 ## Standalone proxies
 
 These are proxies you host. By connecting through them with your client (can be modded or unmodded), you can join
-servers of different versions. Depending on the setup, these include ViaVersion, ViaBackwards, ViaRewind, and ViaLegacy.
+servers of different versions. Depending on the setup, these include ViaVersion, ViaBackwards, ViaRewind, ViaLegacy and ViaAprilFools.
 
 |                     | [VIAaaS](https://github.com/ViaVersion/VIAaaS)                                                              | [ViaProxy](https://github.com/ViaVersion/ViaProxy)                      |
 |---------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
@@ -40,7 +40,9 @@ servers of different versions. Depending on the setup, these include ViaVersion,
 
 These projects are not directly for users, but internal projects respectively libraries which are mainly used by the above-mentioned projects.
 
-|                | [ViaLegacy](https://github.com/ViaVersion/ViaLegacy) | [ViaAprilFools](https://github.com/ViaVersion/ViaAprilFools)                | [ViaLoader](https://github.com/ViaVersion/ViaLoader)         |
-|----------------|------------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------|
-| Implemented in | ViaFabricPlus and ViaProxy                           | ViaFabricPlus, VIAaaS and ViaProxy                                          | ViaFabricPlus, ViaForge and ViaProxy                         |
-| What it does   | Allows connecting to classic-1.7.10 servers          | Allows connecting to 3D Shareware, 20w14infinite and Combat Test 8c servers | Allows easy implementation and loading of the Via* projects. |
+|           | [ViaLegacy](https://github.com/ViaVersion/ViaLegacy) | [ViaAprilFools](https://github.com/ViaVersion/ViaAprilFools)* | [ViaLoader](https://github.com/ViaVersion/ViaLoader)   |
+|-----------|------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| Used with | ViaFabricPlus and ViaProxy                           | ViaFabricPlus, VIAaaS, ViaProxy and ViaFabric                 | ViaFabricPlus, ViaForge and ViaProxy                   |
+| Allows    | Connecting to classic-1.7.10 servers                 | Connecting to some notable snapshots                          | Quick implementation and loading of the Via* projects. |
+
+*Can also be loaded on Paper and Velocity servers.
